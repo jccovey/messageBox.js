@@ -38,7 +38,7 @@ function messageBox(message, options) {
 	title.appendChild(document.createTextNode(options["title"] || "Alert"));
 	
 	content.style.height = (height - 42) + "px";
-	content.style.background = "#FFFf";
+	content.style.background = "#FFF";
 	content.style.border = "1px solid #DDD";
 	content.style.borderTopWidth = "0";
 	content.style.margin = "0 5px 5px 5px";
